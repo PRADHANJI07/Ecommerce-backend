@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import TopProducts from './components/TopProducts'
 import AOS from "aos"
 import "aos/dist/aos.css"
+import Categories from './components/Categories'
+import Footer from './components/Footer'
 
 const App = () => {
   React.useEffect(() => {
@@ -21,6 +23,8 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <TopProducts/>
+      <Categories/>
+      <Footer/>
     </div>
   )
 }
