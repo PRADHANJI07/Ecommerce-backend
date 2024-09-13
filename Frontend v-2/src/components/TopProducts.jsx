@@ -43,8 +43,8 @@ const TopProducts = () => {
   };
 
   return (
-    <div className="mt-14 mb-12">
-      <div className="container mx-auto">
+    <div className="mt-14 mb-12 ">
+      <div className="container mx-auto ">
         {/* Header */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p className="text-sm text-primary">Top Selling Products for you</p>
